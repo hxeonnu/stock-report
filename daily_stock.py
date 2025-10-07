@@ -294,10 +294,11 @@ def msg_slack():  # 생성된 리포트를 슬랙으로 전송하는 함수
    
 
 if __name__ == "__main__":  # 메인 실행부
-    schedule.every().day.at("17:04").do(gpt_stock)# 매일 08:40에 gpt_stock 실행 예약
-    schedule.every().day.at("17:24").do(msg_slack)# 매일 09:00에 msg_slack 실행 예약
+    schedule.every().day.at("08:40").do(gpt_stock)# 매일 08:40에 gpt_stock 실행 예약
+    schedule.every().day.at("09:00").do(msg_slack)# 매일 09:00에 msg_slack 실행 예약
 
     while True:  # 무한 루프 (스케줄러 동작 유지)
         schedule.run_pending()  # 예약된 작업 실행
         time.sleep(1)  # 1초 대기 (과도한 CPU 점유 방지)
+
 
