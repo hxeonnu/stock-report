@@ -113,10 +113,10 @@ Selenium을 먼저 적용했으나 실행 속도 문제로 Playwright로 전환�
 
 ## 결과 화면
 
-- 주가 데이터 JSON 파일 일부 캡처
+주가 데이터 JSON 파일 일부 캡처
 <img width="2110" height="1054" alt="image" src="https://github.com/user-attachments/assets/5ddb3895-50de-42ba-803e-a2c4fb10ed5e" />
-- 뉴스 기사 JSON 파일 일부 캡처
+뉴스 기사 JSON 파일 일부 캡처
 <img width="2112" height="1027" alt="image" src="https://github.com/user-attachments/assets/7c9b5b9d-33c5-4015-8c75-000475ce1b6d" />
-- Slack에 전송된 최종 리포트 캡처
+Slack에 전송된 최종 리포트 캡처
 <img width="2140" height="1115" alt="image" src="https://github.com/user-attachments/assets/90ec862f-a571-40e9-ba57-a7841ffb1900" />
 
